@@ -1,0 +1,25 @@
+# Site Config
+
+name: AlexFlipnote
+title: AlexFlipnote
+
+themecolour: "#2196F3"
+
+domain: "https://blog.alexflipnote.dev"
+baseurl: ""
+url: "https://blog.alexflipnote.dev"
+encoding: utf-8
+twitter: "https://twitter.com/AlexFlipnote"
+
+markdown: kramdown
+include: ['_pages']
+
+kramdown:
+  auto_ids:       true
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  input:          GFM
+  hard_wrap:      false
+  footnote_nr:    1
+  show_warnings:  false

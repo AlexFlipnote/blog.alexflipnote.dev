@@ -1,0 +1,60 @@
+<html>
+  <head>
+    {% include analytics.html %}
+    {% include head.html %}
+    <script src="{{ site.url }}/assets/js/countable.min.js"></script>
+    <script src="{{ site.url }}/assets/js/main.js"></script>
+  </head>
+  <body class="github-font-standard">
+    {% include topbar.html author=page.author %}
+
+    <div class="paper-container">
+      {% if page.banner %}
+      <div class="ribbon secondary custom"></div>
+      <style>
+      .custom {
+        background: url('{{ site.url }}/posts_assets/{{ page.assetsfolder }}/{{ page.banner }}') !important;
+        background-repeat: no-repeat;
+        background-size: cover !important;
+        background-position: center;
+      }
+      </style>
+      {% else %}
+      <div class="ribbon secondary"></div>
+      {% endif %}
+      <div class="paper markdown-container">
+        <div class="blog-title center-text">
+          <h1 class="no-margin no-padding no-border">{{ page.title }}</h1>
+          <p class="italic no-margin no-padding no-border">{{ page.description }}</p>
+        </div>
+        <div class="blog-splitter">
+          <hr class="blog-split-yes">
+          <div class="blog-labels center">
+            <span class="label secondary"><i class="emoji emoji-lg twa-spiral-calendar"></i> {{ page.date | date: "%-d %B %Y" }}</span>
+            <span class="label secondary" id="reading-time"><i class="emoji emoji-lg twa-stopwatch"></i> </span>
+            <span class="label secondary"><i class="emoji emoji-lg twa-pencil2"></i> {{ page.author }}</span>
+          </div>
+        </div>
+        {{ content }}
+      </div>
+    </div>
+
+    <style>
+      .blog-splitter { position: relative; }
+      .blog-labels span { font-size: 14px; }
+      .emoji-lg { vertical-align: -0.3em; }
+      .blog-labels {
+        position: absolute;
+        top: -.75em;
+        width: 100%;
+      }
+
+      @media (max-width: 600px) {
+        .blog-labels { position: relative; top: 0; }
+        .label { margin-bottom: .5em; }
+        .markdown-container hr.blog-split-yes { margin: 12px 0; }
+      }
+    </style>
+
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<div class="box-container highlight-flat no-border-radius" style="margin-bottom: 0;">
+  <p class="container light-text no-margin topbar monospace" style="font-size: 16px;">
+    {% if include.author %}
+      <a href="/">/home</a>/{{ include.author | downcase | replace: ' ', '-' }}/{{ page.title | downcase | replace: ' ', '-' }}.md
+    {% else %}
+      {% if include.static %}
+        <a href="/">/home</a>/{{ include.static | downcase | replace: ' ', '-' }}.md
+      {% else %}
+        <a href="/">/home</a>/guest/{{ page.title | downcase | replace: ' ', '-' }}.md
+      {% endif %}
+    {% endif %}
+  </p>
+</div>
