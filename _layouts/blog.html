@@ -43,10 +43,18 @@
       .blog-splitter { position: relative; }
       .blog-labels span { font-size: 14px; }
       .emoji-lg { vertical-align: -0.3em; }
+
+      img[alt*="BigImage"] { max-width: 70% !important; }
+      img[alt*="Center"] { display: block !important; margin: 0 auto !important; }
+
       .blog-labels {
         position: absolute;
         top: -.75em;
         width: 100%;
+      }
+
+      @media (max-width: 800px) {
+        img[alt*="BigImage"] { max-width: 100% !important; }
       }
 
       @media (max-width: 600px) {

@@ -10,9 +10,10 @@ banner: banner.png
 ---
 **Update**: Discord themselves have already confirmed that KawaiiBot is safe, however keep reading, if you're interested in knowing how this all even started.
 
-![Image](/posts_assets/{{ page.assetsfolder }}/1_-1TGhsonrvC5xAPdw0K6OQ.png)
-
-*Source: [https://twitter.com/discordapp/status/1152002330084036609](https://twitter.com/discordapp/status/1152002330084036609)*
+![ImageCenter](/posts_assets/{{ page.assetsfolder }}/1_-1TGhsonrvC5xAPdw0K6OQ.png)
+<center>
+<i>Source: <a href="https://twitter.com/discordapp/status/1152002330084036609">https://twitter.com/discordapp/status/1152002330084036609</a></i>
+</center>
 
 # About myself
 Hello everyone, my name is **AlexFlipnote**, creator of the bot called **KawaiiBot**. I want to clarify before I say anything that you should be aware of what permissions you give any bots on Discord when adding them to your server. Ensure that you know what you're giving the bot and never give it "Administrator" nor "Mention Everyone". Those are one of the major flaws for bugs that can always appear to the best of us.
@@ -29,10 +30,10 @@ I want to clarify first that there is no way any bots, including KawaiiBot, can 
 # Talking to the author of the hoax
 Rather than having a nice and friendly talk, it ended up being that "I'm wrong, I'm right, I'm just protecting the users!". I'm glad that people want to protect others, however this is in no way protecting anyone but rather spreading false rumours about an innocent bot on Discord. I will show you screenshots of our conversation from start to finish, you can take it as you desire, but this is how it went, after he was done talking, he resulted in deleting me as friend to not be able to talk further.
 
-![Image](/posts_assets/{{ page.assetsfolder }}/1_2YlD8VDCfEWKmKcp8hmtsQ.png)
-![Image](/posts_assets/{{ page.assetsfolder }}/1_XZ6716d_T2xmza3VYB8WPg.png)
-![Image](/posts_assets/{{ page.assetsfolder }}/1_7A5aQhTP_9hVBOH0KSNRyg.png)
-![Image](/posts_assets/{{ page.assetsfolder }}/1_QvVMy9avKFZYoe8OTsOSgQ.png)
+![BigImage Center](/posts_assets/{{ page.assetsfolder }}/1_2YlD8VDCfEWKmKcp8hmtsQ.png)
+![BigImage Center](/posts_assets/{{ page.assetsfolder }}/1_XZ6716d_T2xmza3VYB8WPg.png)
+![BigImage Center](/posts_assets/{{ page.assetsfolder }}/1_7A5aQhTP_9hVBOH0KSNRyg.png)
+![BigImage Center](/posts_assets/{{ page.assetsfolder }}/1_QvVMy9avKFZYoe8OTsOSgQ.png)
 
 Nothing has been taken out of context, it has all been captured from start to finish.
 
