@@ -5,7 +5,7 @@ permalink: /
 title: AlexFlipnote blog homepage
 description: I do blogs now, yes
 ---
-<h1 class="no-margin">
+<h1 class="no-margin index-title">
   {{ page.title }}<br><p class="no-margin undertitle">{{ page.description }}</p>
 </h1>
 
@@ -20,48 +20,10 @@ description: I do blogs now, yes
     {% endif %}
     <li class="listing" id="{{ post.title | downcase | replace: ' ', '-' }}">
       <div>
-        <a class="sun-flower-text" target="_blank" href="{{ site.url }}{{ post.url | replace: '.html', '' }}">{{ post.title }}</a>
+        <a class="sun-flower-text" href="{{ site.url }}{{ post.url | replace: '.html', '' }}">{{ post.title }}</a>
         <i style="color: #999;">{{ post.description }} <span style="color: #666;">({{ post.date | date: "%-d %B %Y" }})</span></i>
       </div>
     </li>
     {% assign lastletter = tmpletter %}
   {% endfor %}
 </ul>
-
-<style>
-  .undertitle {
-    color: #666;
-    font-size: 16px;
-    letter-spacing: 1px;
-  }
-
-  .article-list {
-    margin-top: 1em;
-    position: relative;
-  }
-
-  .splitletter {
-    height: 2.25em;
-    position: relative;
-    width: 100%;
-  }
-
-  .firstletter {
-    font-size: 2em;
-    left: 0;
-    margin: 0;
-    position: absolute;
-    text-align: center;
-    width: auto;
-  }
-
-  .listing {
-    margin: 0;
-    margin-top: .25em;
-  }
-
-  ul {
-    list-style-type: none;
-    padding: 0 !important;
-  }
-</style>

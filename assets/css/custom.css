@@ -1,0 +1,60 @@
+/* Default layout style */
+.article-list {
+  margin-top: 1em;
+  position: relative;
+}
+
+.index-title .undertitle {
+  color: #666;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.article-list .splitletter {
+  height: 2.25em;
+  position: relative;
+  width: 100%;
+}
+
+.article-list .firstletter {
+  font-size: 2em;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  width: auto;
+}
+
+.article-list .listing {
+  margin: 0;
+  margin-top: .25em;
+}
+
+.article-list ul {
+  list-style-type: none;
+  padding: 0 !important;
+}
+
+/* Blog layout style */
+.markdown-container .blog-splitter { position: relative; }
+.markdown-container .blog-labels span { font-size: 14px; }
+.markdown-container .emoji-lg { vertical-align: -0.3em; }
+
+.markdown-container img[alt*="BigImage"] { max-width: 70% !important; }
+.markdown-container img[alt*="Center"] { display: block !important; margin: 0 auto !important; }
+
+.markdown-container .blog-labels {
+  position: absolute;
+  top: -.75em;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .markdown-container img[alt*="BigImage"] { max-width: 100% !important; }
+}
+
+@media (max-width: 600px) {
+  .markdown-container .blog-labels { position: relative; top: 0; }
+  .markdown-container .label { margin-bottom: .5em; }
+  .markdown-container hr.blog-split-yes { margin: 12px 0; }
+}
