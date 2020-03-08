@@ -4,7 +4,13 @@
 
 <!-- Meta Data -->
 <meta name="theme-color" content="{% if page.themecolour %}{{ page.themecolour }}{% else %}{{ site.themecolour }}{% endif %}">
+{% if page.banner %}
+<meta content="{{ site.url }}/posts_assets/{{ page.assetsfolder }}/{{ page.banner }}" property="og:image" />
+<meta name="twitter:image" content="{{ site.url }}/posts_assets/{{ page.assetsfolder }}/{{ page.banner }}">
+{% else %}
 <meta content="{{ site.url }}/assets/images/profile.png" property="og:image" />
+<meta name="twitter:image" content="{{ site.url }}/assets/images/profile.png">
+{% endif %}
 <link rel="icon" type="image/x-icon" href="{{ site.url }}/assets/images/favicon.ico">
 <meta content="{% if page.title %}{{ page.title }} - AlexFlipnote Blog{% else %}{{ site.title }}{% endif %}" property="og:title" />
 {% if page.description %}
