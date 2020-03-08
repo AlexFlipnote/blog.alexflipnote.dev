@@ -4,6 +4,7 @@ author: AlexFlipnote
 
 title: Explaining the KawaiiBot Hoax
 description: "Spoilers: It's all fake, here's why..."
+keywords: KawaiiBot, Hoax, fake virus
 
 assetsfolder: KawaiiBot_Hoax
 banner: banner.png

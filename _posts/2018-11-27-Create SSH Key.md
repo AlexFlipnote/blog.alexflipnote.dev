@@ -4,6 +4,7 @@ author: AlexFlipnote
 
 title: Create SSH Key
 description: How to create a SSH Key and take usage of it
+keywords: ssh, key, secure, linux, ssh-keygen, authorized_keys
 ---
 # 0. Installing SSH Key
 If you have the latest `Windows 10` update, you should already have the OpenSSH installed.

@@ -4,6 +4,7 @@ author: AlexFlipnote
 
 title: AlexFlipnote Discord Survey
 description: A survey that was taken on AlexFlipnote Discord, to see what people think.
+keywords: Survey, Discord, Anarchy
 
 assetsfolder: AlexFlipnote_Discord_survey
 banner: banner.png

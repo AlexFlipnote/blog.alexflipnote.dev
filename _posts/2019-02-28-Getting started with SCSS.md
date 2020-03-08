@@ -4,6 +4,7 @@ author: AlexFlipnote
 
 title: Getting started with SCSS
 description: Learning the basics of SCSS
+keywords: tutorial, start, scss, getting started, easy
 
 assetsfolder: Starting_with_SCSS
 ---

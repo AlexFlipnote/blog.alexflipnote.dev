@@ -4,6 +4,7 @@ author: AlexFlipnote
 
 title: Clean a drive completely
 description: Clean all partitions and files of a drive
+keywords: clean, partitions, usb, clean usb, fix usb, fix, windows, diskpart
 
 assetsfolder: Cleaning_A_Drive
 ---

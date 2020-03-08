@@ -4,6 +4,7 @@ author: AlexFlipnote
 
 title: Install SCSS
 description: How to install SCSS and taking usage of it.
+keywords: Installing, how-to, scss, not hard
 
 assetsfolder: Installing_SCSS
 ---
